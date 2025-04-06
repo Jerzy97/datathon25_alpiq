@@ -1,0 +1,12 @@
+black
+numpy
+scipy
+pandas
+openpyxl
+matplotlib
+notebook
+scikit-learn
+scikit-image
+torch
+torchvision
+torchaudio

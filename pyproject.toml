@@ -1,0 +1,27 @@
+# Python Packaging
+#
+# References:
+#   1. https://setuptools.pypa.io/en/latest/userguide/quickstart.html
+#   2. https://snarky.ca/what-the-heck-is-pyproject-toml/
+#   3. https://packaging.python.org/en/latest/tutorials/packaging-projects/
+
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datathon2025"
+version = "0.0.1"
+dependencies = [
+    "matplotlib",
+    "numpy",
+    "scikit-learn"
+]
+authors = [
+  { name="Georg Leonhard Brunner", email="georg.brunner@vision.ee.ethz.ch" },
+]
+description = "Code for Alpiq challenge at ACE Datathon 2025"
+readme = "README.md"
+requires-python = ">=3.11"
+
